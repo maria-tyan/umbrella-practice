@@ -1,0 +1,79 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>Анкета кандидата</title>
+  <link href='http://fonts.googleapis.com/css?family=Lobster&subset=latin,cyrillic,latin-ext' rel='stylesheet' type='text/css'>
+  <link href="styles.css" rel="stylesheet">
+</head>
+<body>  
+  <div id="content">
+    <div id="top">Анкета кандидата</div>
+    <center><h5>Пожалуйста, заполните анкету. Мы обязательно с Вами свяжемся.</h5></center><hr width=40%>
+    <table id='person'>
+      <tr>
+        <td>Фамилия:</td>
+        <td><input type="text"></td>
+      </tr>
+      <tr>
+        <td>Имя:</td>
+        <td><input type="text"></td>
+      </tr>
+      <tr>
+        <td>Отчество:</td>
+        <td><input type="text"></td>
+      </tr>
+      <tr>
+        <td>Семейное положение:</td>
+        <td>
+          <select name="select">
+            <option selected value="s1">Никогда не состоял(состояла) в браке</option>
+            <option value="s2">Состоит в зарегестрированном браке</option>
+            <option value="s3">Состоит в незарегестрированном браке</option>
+            <option value="s4">Вдовец (вдова)</option>
+            <option value="s5">Разведен (разведена)</option>
+          </select>
+        </td>
+      </tr>
+      <tr>
+        <td>Пол:</td>
+        <td>
+          <input type="radio" name="gender" value="men"> мужской 
+          <input type="radio" name="gender" value="women"> женский
+        </td>
+      </tr>
+      <tr>
+        <td>Серия:</td>
+        <td><input type="text"></td>
+      </tr>
+      <tr>
+        <td>Номер:</td>
+        <td><input type="text"></td>
+      </tr>
+      <tr>
+        <td>Домашний адрес:</td>
+        <td><input type="text"></td>
+      </tr>
+      <tr>
+        <td>Телефон:</td>
+        <td><input type="text"></td>
+      </tr>
+      <tr>
+        <td>e-mail:</td>
+        <td><input type="text"></td>
+      </tr>
+      <tr>
+        <td>Немного о себе...:</td>
+        <td><textarea name="comment"></textarea></td>
+      </tr>	
+    </table>
+    <hr width=40%>
+    <input id="submit" type="button" value="Отправить заявку!"></input>
+    <p>Будем рады видеть Вас в нашей команде!</p>
+    <div id="footer-clear"></div>
+  </div>
+  <div id="footer">
+    &copy maria-tyan, 2015
+  </div>
+</body>
+</html>
