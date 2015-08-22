@@ -39,8 +39,8 @@ hr{
   text-align: left;
 }
 .form-group-input{
-  max-width: 100%;
-  min-width: 80%;
+  max-width: 70%;
+  min-width: 70%;
 }
 .submit{
   color: #fff; 
