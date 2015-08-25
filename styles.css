@@ -27,6 +27,22 @@ hr{
   width: 70%;
   color: white;
 }
+@media screen and (min-width: 650px){
+  .leftcol { /* Левая колонка */
+    float: left; /* Обтекание справа */
+    width: 45%; /* Ширина колонки */
+    text-align: center;
+  }
+  .rightcol { /* Правая колонка */
+    margin-left: 50%; /* Отступ слева */
+    text-align: center;
+  }
+}
+.candidat-form{
+  flex-grow: 1;
+  position: relative;
+  overflow: hidden; 
+}
 .form-group{
   margin: 1%;
   display: flex;
@@ -55,6 +71,8 @@ hr{
 .submit:hover { background: rgb(238, 130, 238); }
 .submit:active { background: rgb(108, 070, 117); } 
 .footer {
+  bottom: 0px;
+  position: relative;
   height: 15px; 
   margin-top: -15px; 
   border-radius: 10px 10px 0 0;
